@@ -23,3 +23,5 @@ Thumbs.db
 
 # Ignore virtual environments (if not using Poetry)
 venv/
+.env
+.env
