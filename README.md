@@ -81,6 +81,24 @@ streamlit run app.py
 - Verify that all dependencies are correctly installed
 - Check your internet connection
 
+## Resources and Learning Materials
+
+### Study Techniques and Academic Success
+- [UC Berkeley Study Skills](https://study.berkeley.edu/tips-and-tools/study-skills) - Comprehensive guide to effective studying
+- [MIT OpenCourseWare Learning Resources](https://ocw.mit.edu/courses/learning-resources/) - Free learning materials and study strategies
+- [Coursera Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) - Popular course on effective learning techniques
+
+### AI and Educational Technology
+- [OpenRouter AI Documentation](https://openrouter.ai/docs) - API documentation for the AI service used
+- [Streamlit Documentation](https://docs.streamlit.io/) - Learn more about the web app framework
+
+### Related Projects and Inspirations
+- [OpenRouterChatApp](https://github.com/mshojaei77/OpenRouterChatApp) - For Chatbot functionality
+
+
+## Disclaimer
+UBCStudyAssist is an experimental project and should be used as a supplementary tool alongside professional academic advice. Always consult with academic advisors, professors, and university resources for personalized guidance.
+
 ## Contributing / Get in Touch
 Contributions are welcome! Please feel free to submit a Pull Request or contact me at owenhochwald@gmail.com.
 
