@@ -3,6 +3,11 @@ import time
 
 st.title("Study Technique Helper Bot")
 
+# Add star callout using Streamlit elements
+callout = st.container()
+with callout:
+    st.info("⭐ Refresh the page to get a new conversation! ⭐")
+
 # function to generate responses
 # TODO: add logic to call utils/chatbot.py
 def generate_response(prompt):
@@ -37,7 +42,3 @@ if prompt := st.chat_input("Chat"):
         response = st.write_stream(generate_response(prompt))
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
-
-
-
-
