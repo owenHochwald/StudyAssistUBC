@@ -1,0 +1,25 @@
+# Poetry files
+.poetry/
+*.toml
+*.lock
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore system files (macOS, Linux, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore virtual environments (if not using Poetry)
+venv/
