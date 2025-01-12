@@ -2,6 +2,7 @@
 .poetry/
 *.toml
 *.lock
+*.env
 
 # Ignore Python bytecode files
 __pycache__/
@@ -23,5 +24,6 @@ Thumbs.db
 
 # Ignore virtual environments (if not using Poetry)
 venv/
+.env
 .env
 .env
