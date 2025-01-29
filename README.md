@@ -35,12 +35,12 @@ Whether you’re new to university or looking to optimize your current study met
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/UBCStudyBot.git
+git clone https://github.com/owenHochwald/StudyAssistUBC.git
 cd UBCStudyBot
 ```
 
-### 2. Create OpenRouter API Key
-1. Visit [OpenRouter.ai](https://openrouter.ai/)
+### 2. Create Deepseek API Key
+1. Visit [Deepseek](https://www.deepseek.com)
 2. Sign up for an account
 3. Navigate to API Keys section
 4. Generate a new API key
@@ -63,18 +63,18 @@ pip install -r requirements.txt
 ### 4. Configure API Key
 Create a `.env` file in the project root with your OpenRouter API key:
 ```
-OPEN_ROUTER_KEY=your_openrouter_api_key_here
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
 ```
 
 ### 5. Run the Application
 ```bash
-streamlit run app.py
+poetry runstreamlit run app.py
 ```
 
 ## Important Notes
-- The application uses the Gemini Flash model from OpenRouter by default
+- The application uses the V3 from Deepseek by default
 - Ensure you have a stable internet connection
-- API usage is subject to OpenRouter's pricing and terms
+- API usage is subject to Deepseek's pricing and terms
 
 ## Troubleshooting
 - If you encounter API key issues, double-check your `.env` file
@@ -92,8 +92,6 @@ streamlit run app.py
 - [OpenRouter AI Documentation](https://openrouter.ai/docs) - API documentation for the AI service used
 - [Streamlit Documentation](https://docs.streamlit.io/) - Learn more about the web app framework
 
-### Related Projects and Inspirations
-- [OpenRouterChatApp](https://github.com/mshojaei77/OpenRouterChatApp) - For Chatbot functionality
 
 
 ## Disclaimer
